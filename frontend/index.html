@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="styleIndex.css" />
+    </head>
+    <body>
+        <header id="header"></header>
+
+        <div id="content">
+            <div id="title">
+                <h1>Explore the world effortlessly by train !</h1>
+                <p>
+                    Compare, book and enjoy cheap prices for train tickets :
+                    your journey starts on Tickethack.
+                </p>
+            </div>
+            <div id="search">
+                <div id="search-box">
+                    <div id="formContainer">
+                        <div id="formCity">
+                            <input
+                                id="inputDeparture"
+                                type="text"
+                                placeholder="Departure"
+                            />
+                            <div id="lineBlack"></div>
+                            <input
+                                id="inputArrival"
+                                type="text"
+                                placeholder="Arrival"
+                            />
+                        </div>
+                        <input id="inputDate" type="date" />
+                    </div>
+                    <button id="buttonSearch">Search</button>
+                </div>
+
+                <div id="info-card"></div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
+        <script src="env.js"></script>
+        <script src="script.js"></script>
+        <script src="scriptIndex.js"></script>
+    </body>
+</html>
